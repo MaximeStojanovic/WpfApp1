@@ -16,3 +16,5 @@ c:\users\maxim\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\W
 c:\users\maxim\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
 C:\Users\maxim\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
 C:\Users\maxim\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\maxim\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Json.dll
+C:\Users\maxim\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Json.pdb

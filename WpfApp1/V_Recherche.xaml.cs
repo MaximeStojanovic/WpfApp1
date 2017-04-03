@@ -39,7 +39,7 @@ namespace WpfApp1
 
 
             listSteam = Recherche.RequestFriends(steamId);
-            Resp.Text = listSteam.friendslist.friends.steamid.ToString();
+            Resp.Text = listSteam.friendslist.friends.ToString();
         }
     }
 }

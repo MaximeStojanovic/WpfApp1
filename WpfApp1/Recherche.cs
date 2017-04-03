@@ -6,6 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Json;
 using System.Text.RegularExpressions;
 
 namespace WpfApp1
@@ -22,10 +23,16 @@ namespace WpfApp1
             WebResponse response = request.GetResponse();
             Stream dataStream = response.GetResponseStream();
             StreamReader reader = new StreamReader(dataStream);
-            
+
+            JsonArray Data;
             string reponse = reader.ReadToEnd();
             string json = Regex.Replace(reponse, @"\t|\n|\r", "");
 
+            //object m = JsonConvert.DeserializeObject(reponse);
+
+
+
+            
             //IEnumerable<RootObject> items =  JsonConvert.DeserializeObject<IEnumerable<RootObject>>(json);
 
             dynamic j = JsonConvert.DeserializeObject(json);
